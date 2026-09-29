@@ -1,3 +1,5 @@
+//Newly Created class Controller and newly added /info GET with small description on the program
+
 package uk.ac.westminster.products_api;
 
 import org.springframework.web.bind.annotation.GetMapping;
