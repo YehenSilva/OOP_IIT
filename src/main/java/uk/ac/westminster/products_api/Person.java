@@ -16,11 +16,6 @@ package uk.ac.westminster.products_api;
 public class Person {
 
     private String name;
-    private String email;
-
-    public String getEmail() {
-        return email;
-    }
 
     public Person() {
     }
@@ -38,5 +33,10 @@ public class Person {
     }
 
     // TODO (Activity 3): add the "email" field and its getter here.
+    private String email;
+
+    public String getEmail() {
+        return email;
+    }
 
 }
